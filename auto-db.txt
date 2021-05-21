@@ -1,0 +1,19 @@
+Id: INT - PRIMARY KEY (AUTO_INCREMENT - UNIQUE - INDEX) - NOTNULL
+Marca: VARCHAR(20)  NOTNULL
+Modello: VARCHAR(20) NOTNULL
+Anno: YEAR - NOTNULL
+N proprietari: TINYINT - DEFAULT
+Chilometraggio: MEDIUMINT - NOTNULL
+Colore: VARCHAR(25) - NOTNULL
+Tipo di Vernice: VARCHAR(20) 
+Rivestimenti: VARCHAR(25)
+Tipologia: VARCHAR(20) - NOTNULL
+
+Cilindrata: SMALLINT - NOTNULL
+Cambio: VARCHAR(15) - NOTNULL
+Alimentazione (diesel/benzina/elettrico/irbido): VARCHAR(15) - NOTNULL
+Classe emissioni: VARCHAR(15)
+
+Foto: VARCHAR(100) - DEFAULT
+Descrizione: TEXT
+Prezzo: FLOAT (9,2) - NOTNULL
